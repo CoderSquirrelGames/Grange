@@ -1,0 +1,18 @@
+Here is a good way you can refactor your custom Tasks created prior of version 2 and to version 2:
+
+1. Open up your favorite IDE.
+
+2. Fix Namespaces:
+
+Do an Edit -> "Replace In Files" and replace:
+"using NodeCanvas.Variables;" to
+"using NodeCanvas.Framework; using ParadoxNotion.Design;"
+
+3. Replace BBVariables:
+
+Do an Edit -> "Replace In Files" and replace:
+"BBGameObject"	to	"BBParameter<GameObject>"
+"BBFloat"		to	"BBParameter<float>"
+"BBString"		to	"BBParameter<string>"
+"BBVector"		to	"BBParameter<Vector3>"
+and so on...

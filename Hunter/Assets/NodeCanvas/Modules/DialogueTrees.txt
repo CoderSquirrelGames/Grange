@@ -1,0 +1,2 @@
+The DialogueTree module (that used to be here) has become a seperate FREE NodeCanvas extension module.
+It will be released on the Asset Store if not already under 'DialogueCanvas' name.
